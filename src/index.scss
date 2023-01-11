@@ -14,3 +14,25 @@ a,
 li {
   display: inline-block;
 }
+
+// hero section
+.hero {
+  background: #c1ddec;
+  .hero-bg {
+    background: url('./images/hero.webp') no-repeat top right/cover;
+    background-size: 88%;
+  }
+}
+
+// slider section
+.slider {
+  max-width: 1244px;
+  margin: auto;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+}
+
+.shop{
+  max-width: 1244px;
+  margin: 0 auto;
+}
