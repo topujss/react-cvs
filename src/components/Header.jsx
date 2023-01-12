@@ -1,4 +1,4 @@
-import Logo from '../images/logo.svg';
+import Logo from '../images/logo.png';
 
 import { BsChevronDown, BsPerson, BsPersonPlus } from 'react-icons/bs';
 import { GrCart } from 'react-icons/gr';
@@ -122,5 +122,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }

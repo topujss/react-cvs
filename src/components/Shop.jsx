@@ -1,12 +1,12 @@
 import { GoChevronRight } from 'react-icons/go';
 
-import Bopis from '../images/bopis.svg';
-import Well from '../images/wellnessjourney.svg';
+import Bopis from '../images/bopis.png';
+import Well from '../images/wellnessjourney.png';
 
 export default function Shop() {
   return (
-    <section className="shop grid grid-cols-2 mb-10 gap-x-5">
-      <div className="left flex bg-blue-900 items-center p-7 rounded-2xl">
+    <section className="shop grid grid-cols-2 mb-24 gap-x-5">
+      <div className="left flex bg-blue-900 items-center p-7 rounded-3xl shadow-2xl shadow-slate-400">
         <div className="inner-left">
           <img src={Bopis} alt="" />
         </div>
@@ -19,7 +19,7 @@ export default function Shop() {
           </a>
         </div>
       </div>
-      <div className="right flex items-center p-7 rounded- shadow-2xl shadow-slate-500">
+      <div className="right flex items-center p-7 rounded- shadow-2xl shadow-slate-300 rounded-3xl">
         <div className="inner-left">
           <img src={Well} alt="" />
         </div>
@@ -32,6 +32,7 @@ export default function Shop() {
           </a>
         </div>
       </div>
+      <h1 className="relative top-8 mt-28 text-5xl font-medium">Fill prescriptions your way</h1>
     </section>
   );
 }

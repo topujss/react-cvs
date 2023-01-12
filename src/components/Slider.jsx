@@ -1,16 +1,16 @@
-import Here from '../images/here.svg';
-import All from '../images/all-products.avif';
-import Covid from '../images/covid.avif';
-import Gift from '../images/wellness.avif';
-import Vit from '../images/vitamin.avif';
-import Med from '../images/med.avif';
+import Here from '../images/here.png';
+import All from '../images/all-products.png';
+import Covid from '../images/covid.png';
+import Gift from '../images/wellness.png';
+import Vit from '../images/vitamin.png';
+import Med from '../images/med.png';
 import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 
 export default function Slider() {
   return (
     <section className="slider bg-white p-6 shadow-md rounded-2xl z-30 relative top-1 ">
       <div className="top grid grid-cols-3">
-        <h1 className="my-5 col-span-2 text-5xl font-medium">Shop seasonal health & wellness essentials</h1>
+        <h1 className="my-5 col-span-2 text-5xl font-medium ">Shop seasonal health & wellness essentials</h1>
         <div className="icons justify-self-end col-span-1 my-5 mr-10">
           <span className="text-center w-14 h-14 rounded-full bg-white text-4xl border border-slate-900 inline-block cursor-pointer">
             <GoChevronLeft className="inline-block" />
