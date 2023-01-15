@@ -1,0 +1,57 @@
+import All from '../images/allproducts.svg';
+import New from '../images/newarrivals.svg';
+import Vit from '../images/vitamins.png';
+import Bea from '../images/beauty.png';
+import Hea from '../images/healthmedicine.png';
+import Hom from '../images/homehealthcare.png';
+import Per from '../images/personalcare.png';
+import Pho from '../images/photo.png';
+import Alld from '../images/alldeals.png';
+
+export const productItem = [
+  {
+    id: 1,
+    img: All,
+    text: 'All products',
+  },
+  {
+    id: 2,
+    img: New,
+    text: 'New arrivals',
+  },
+  {
+    id: 3,
+    img: Vit,
+    text: 'Vitamins',
+  },
+  {
+    id: 4,
+    img: Bea,
+    text: 'Beauty',
+  },
+  {
+    id: 5,
+    img: Hea,
+    text: 'Health & medicine',
+  },
+  {
+    id: 6,
+    img: Hom,
+    text: 'Home health care',
+  },
+  {
+    id: 7,
+    img: Per,
+    text: 'Personal care',
+  },
+  {
+    id: 8,
+    img: Pho,
+    text: 'Photo',
+  },
+  {
+    id: 9,
+    img: Alld,
+    text: 'All deals',
+  },
+];

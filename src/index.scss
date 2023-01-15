@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+$hero-bg: './images/hero.webp';
+$flu-bg: './images/wellnessDP.jpg';
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap');
 
 * {
@@ -11,7 +14,8 @@
 }
 
 a,
-li {
+li,
+span {
   display: inline-block;
 }
 
@@ -19,7 +23,7 @@ li {
 .hero {
   background: #c1ddec;
   .hero-bg {
-    background: url('./images/hero.webp') no-repeat top right/cover;
+    background: url($hero-bg) no-repeat top right/cover;
     background-size: 88%;
   }
 }
@@ -35,4 +39,10 @@ li {
 .shop {
   max-width: 1244px;
   margin: 0 auto 5rem;
+}
+
+// flu section
+.flu {
+  background: url($flu-bg) no-repeat;
+  background-size: cover;
 }
