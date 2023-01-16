@@ -1,4 +1,4 @@
-import Logo from '../images/logo.png';
+import Logo from '../images/header/logo.png';
 
 import { BsChevronDown, BsPerson, BsPersonPlus } from 'react-icons/bs';
 import { GrCart } from 'react-icons/gr';

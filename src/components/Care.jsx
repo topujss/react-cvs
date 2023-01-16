@@ -1,5 +1,5 @@
-import Inperson from '../images/inpersoncareDP.jpg';
-import Online from '../images/virtualcareDP.jpg';
+import Inperson from '../images/care/inpersoncareDP.jpg';
+import Online from '../images/care/virtualcareDP.jpg';
 import { GoChevronRight } from 'react-icons/go';
 import { FiChevronRight } from 'react-icons/fi';
 import { CareItem } from '../faker/care';

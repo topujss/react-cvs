@@ -1,7 +1,7 @@
-import Canvas from '../images/canvas.jpg';
-import Extra from '../images/extrabucks.jpg';
-import Pick from '../images/pickup.jpg';
-import New from '../images/new.jpg';
+import Canvas from '../images/product/canvas.jpg';
+import Extra from '../images/product/extrabucks.jpg';
+import Pick from '../images/product/pickup.jpg';
+import New from '../images/product/new.jpg';
 import { BsChevronRight } from 'react-icons/bs';
 import { productItem } from '../faker/product';
 

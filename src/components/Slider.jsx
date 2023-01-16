@@ -1,9 +1,9 @@
-import Here from '../images/here.png';
-import All from '../images/all-products.png';
-import Covid from '../images/covid.png';
-import Gift from '../images/wellness.png';
-import Vit from '../images/vitamin.png';
-import Med from '../images/med.png';
+import Here from '../images/slider/here.png';
+import All from '../images/flu/all-products.png';
+import Covid from '../images/slider/covid.png';
+import Gift from '../images/slider/wellness.png';
+import Vit from '../images/slider/vitamin.png';
+import Med from '../images/slider/med.png';
 import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 
 export default function Slider() {

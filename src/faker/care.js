@@ -1,9 +1,9 @@
-import Res from '../images/respiratoryinfections.svg';
-import Flu from '../images/flu.svg';
-import Ill from '../images/otherillness.svg';
-import Inj from '../images/injuries.svg';
-import Scr from '../images/screenings.svg';
-import Ser from '../images/services.svg';
+import Res from '../images/care/respiratoryinfections.svg';
+import Flu from '../images/care/flu.svg';
+import Ill from '../images/care/otherillness.svg';
+import Inj from '../images/care/injuries.svg';
+import Scr from '../images/care/screenings.svg';
+import Ser from '../images/care/services.svg';
 
 export const CareItem = [
   {

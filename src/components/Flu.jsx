@@ -1,5 +1,5 @@
 import { FiChevronRight } from 'react-icons/fi';
-import Heart from '../images/all-products.png';
+import Heart from '../images/flu/all-products.png';
 
 export default function Flu() {
   return (

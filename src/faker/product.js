@@ -1,12 +1,12 @@
-import All from '../images/allproducts.svg';
-import New from '../images/newarrivals.svg';
-import Vit from '../images/vitamins.png';
-import Bea from '../images/beauty.png';
-import Hea from '../images/healthmedicine.png';
-import Hom from '../images/homehealthcare.png';
-import Per from '../images/personalcare.png';
-import Pho from '../images/photo.png';
-import Alld from '../images/alldeals.png';
+import All from '../images/product/allproducts.svg';
+import New from '../images/product/newarrivals.svg';
+import Vit from '../images/product/vitamins.png';
+import Bea from '../images/product/beauty.png';
+import Hea from '../images/product/healthmedicine.png';
+import Hom from '../images/product/homehealthcare.png';
+import Per from '../images/product/personalcare.png';
+import Pho from '../images/product/photo.png';
+import Alld from '../images/product/alldeals.png';
 
 export const productItem = [
   {

@@ -6,6 +6,7 @@ import Presc from '../../components/Presc';
 import Product from '../../components/Product';
 import Shop from '../../components/Shop';
 import Slider from '../../components/Slider';
+import Virus from '../../components/Virus';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Flu />
       <Care />
       <Product />
+      <Virus />
     </>
   );
 }

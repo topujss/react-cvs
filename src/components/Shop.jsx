@@ -1,7 +1,7 @@
 import { GoChevronRight } from 'react-icons/go';
 
-import Bopis from '../images/bopis.png';
-import Well from '../images/wellnessjourney.png';
+import Bopis from '../images/shop/bopis.png';
+import Well from '../images/shop/wellnessjourney.png';
 
 export default function Shop() {
   return (

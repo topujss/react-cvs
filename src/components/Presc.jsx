@@ -1,6 +1,6 @@
-import Manage from '../images/managerx.jpg';
-import Transfer from '../images/transferrx.jpg';
-import Pax from '../images/paxlovid.png';
+import Manage from '../images/presc/managerx.jpg';
+import Transfer from '../images/presc/transferrx.jpg';
+import Pax from '../images/presc/paxlovid.png';
 import { GoChevronRight } from 'react-icons/go';
 
 export default function Presc() {

@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-$hero-bg: './images/hero.webp';
-$flu-bg: './images/wellnessDP.jpg';
+$hero-bg: './images/hero/hero.webp';
+$flu-bg: './images/flu/wellnessDP.jpg';
+$virus-bg: './images/covidDP.jpg';
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap');
 
@@ -45,4 +46,9 @@ span {
 .flu {
   background: url($flu-bg) no-repeat;
   background-size: cover;
+}
+
+// virus section
+.virus {
+  background: url($virus-bg) no-repeat top left/cover;
 }
