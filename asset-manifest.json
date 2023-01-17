@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-cvs/static/css/main.c8a6063c.css",
+    "main.js": "/react-cvs/static/js/main.4f246004.js",
+    "static/media/virtualcareDP.jpg": "/react-cvs/static/media/virtualcareDP.911922f66cc8243ac872.jpg",
+    "static/media/carepassDP.jpg": "/react-cvs/static/media/carepassDP.1d46c6613b8b6fea1e36.jpg",
+    "static/media/inpersoncareDP.jpg": "/react-cvs/static/media/inpersoncareDP.aabfe03f9dbe0f9fde71.jpg",
+    "static/media/wellnessDP.jpg": "/react-cvs/static/media/wellnessDP.b6ae0cf6fbfe66dfed29.jpg",
+    "static/media/valentines.jpg": "/react-cvs/static/media/valentines.6da9788a5297975055a7.jpg",
+    "static/media/extrabucks.jpg": "/react-cvs/static/media/extrabucks.9c1651e6e774af71514d.jpg",
+    "static/media/covidDP.jpg": "/react-cvs/static/media/covidDP.b743af6f18d2f9132771.jpg",
+    "static/media/heroDP.jpg": "/react-cvs/static/media/heroDP.0fe197c01a728b37ca38.jpg",
+    "static/media/decor.jpg": "/react-cvs/static/media/decor.cb0ef95741734090365b.jpg",
+    "static/media/pickup.jpg": "/react-cvs/static/media/pickup.c2ea88895c476e1378d7.jpg",
+    "static/media/paxlovid.png": "/react-cvs/static/media/paxlovid.424d1f7d012228a223bb.png",
+    "static/media/vitamin.png": "/react-cvs/static/media/vitamin.c5fd5f40ddd945341612.png",
+    "static/media/wellness.png": "/react-cvs/static/media/wellness.af999565104fd730fda7.png",
+    "static/media/managerx.jpg": "/react-cvs/static/media/managerx.1b64411cfff1cbd23897.jpg",
+    "static/media/transferrx.jpg": "/react-cvs/static/media/transferrx.f0863d75d721b17a4495.jpg",
+    "static/media/covid.png": "/react-cvs/static/media/covid.164bf60f302dae853218.png",
+    "static/media/all-products.png": "/react-cvs/static/media/all-products.520d892921d9c87acae4.png",
+    "static/media/carepasslogo.svg": "/react-cvs/static/media/carepasslogo.67f4f4aad2a7c1116f95ffe824366adb.svg",
+    "static/media/screenings.svg": "/react-cvs/static/media/screenings.acfcd0cff39312810d167c9b90e4bd19.svg",
+    "static/media/respiratoryinfections.svg": "/react-cvs/static/media/respiratoryinfections.f0f3a554d74d84dba4b820015e2438de.svg",
+    "static/media/otherillness.svg": "/react-cvs/static/media/otherillness.19d627496abee7eee9d3bfa05f7edc1b.svg",
+    "static/media/footer.svg": "/react-cvs/static/media/footer.f817c8d0b2ea03350e377103c7c6039b.svg",
+    "static/media/injuries.svg": "/react-cvs/static/media/injuries.7fee7144211f5c0f63d50e500e1c9037.svg",
+    "static/media/services.svg": "/react-cvs/static/media/services.7da59bbdad6c61c7a46602c8a53807c0.svg",
+    "static/media/allproducts.svg": "/react-cvs/static/media/allproducts.3df73010ee5dc26064bf75d3a2f0981a.svg",
+    "static/media/flu.svg": "/react-cvs/static/media/flu.167cbd96084bb1ac4129521bb455b7bd.svg",
+    "static/media/newarrivals.svg": "/react-cvs/static/media/newarrivals.b8737c3f645d93514ded6f7f4a23fa6b.svg",
+    "index.html": "/react-cvs/index.html",
+    "main.c8a6063c.css.map": "/react-cvs/static/css/main.c8a6063c.css.map",
+    "main.4f246004.js.map": "/react-cvs/static/js/main.4f246004.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8a6063c.css",
+    "static/js/main.4f246004.js"
+  ]
+}

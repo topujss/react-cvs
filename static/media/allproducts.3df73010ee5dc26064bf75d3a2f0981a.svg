@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+    </defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1280" transform="translate(-71.000000, -3883.000000)">
+            <g id="shop" transform="translate(0.000000, 3137.000000)">
+                <g id="category" transform="translate(49.000000, 613.000000)">
+                    <g id="buttons" transform="translate(10.000000, 120.000000)">
+                        <g id="Group" transform="translate(12.000000, 13.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Oval"></g>
+                            <g id="Rectangle-2" mask="url(#mask-2)">
+                                <rect id="Rectangle" fill="#0B315E" x="0" y="0" width="42" height="42"></rect>
+                                <path d="M13.0821894,11.8357426 L8.73674372,16.2495473 C7.53920755,17.4700341 7.54137724,19.4455544 8.74151697,20.6633517 L21.0019754,33.1199709 L33.2619979,20.6633517 C34.4603585,19.4435703 34.4591868,17.4678737 33.2593507,16.2495473 L28.9199817,11.8405925 C27.7272189,10.6223542 25.7883444,10.6172398 24.5893329,11.8291292 C24.583952,11.8345522 24.5786149,11.8399752 24.5732774,11.8454423 L21.0019754,15.4700439 L17.4276354,11.838388 C16.8520612,11.249528 16.0686748,10.9189005 15.251875,10.92 C14.4374619,10.9195178 13.6565485,11.2491312 13.0821894,11.8357426 Z" id="Fill-1" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
