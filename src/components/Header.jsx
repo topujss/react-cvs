@@ -3,7 +3,7 @@ import Logo from '../images/header/logo.png';
 import { BsChevronDown, BsPerson, BsPersonPlus } from 'react-icons/bs';
 import { GrCart } from 'react-icons/gr';
 import { MdStore, MdReplay } from 'react-icons/md';
-import { IoIosSearch } from 'react-icons/io';
+import { TfiSearch } from 'react-icons/tfi';
 
 // header bottom icons
 import { HiOutlinePhoto, HiOutlineNewspaper, HiOutlineTruck } from 'react-icons/hi2';
@@ -46,10 +46,10 @@ export default function Header() {
             <input
               placeholder="Search product and services"
               className="w-11/12 pl-5 p-3 rounded-full focus:outline-none font-medium placeholder::text-slate-800 text-2xl border-2 border-cyan-700 focus:border-cyan-300 transition-all"
-              type="search"
+              type="text"
             />
-            <button type="submit" className=" absolute top-4 right-24">
-              <IoIosSearch className="text-3xl text-red-600" />
+            <button type="submit" className="absolute top-3 right-24">
+              <TfiSearch className="text-3xl text-red-600" />
             </button>
           </form>
         </div>
@@ -57,7 +57,7 @@ export default function Header() {
           <a href="#" className=" hover:text-red-500 transition-all duration-300">
             <MdStore className="inline-block text-4xl" /> Store
           </a>
-          <a href="#" className="pl-4 hover:text-red-500 transition-all duration-300">
+          <a href="#" className="pl-6 hover:text-red-500 transition-all duration-300">
             <GrCart className="inline-block text-3xl" /> cart
           </a>
         </div>

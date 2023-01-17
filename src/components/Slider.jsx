@@ -4,7 +4,8 @@ import Covid from '../images/slider/covid.png';
 import Gift from '../images/slider/wellness.png';
 import Vit from '../images/slider/vitamin.png';
 import Med from '../images/slider/med.png';
-import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
+import { GoChevronLeft } from 'react-icons/go';
+import { BsChevronRight } from 'react-icons/bs';
 
 export default function Slider() {
   return (
@@ -12,11 +13,11 @@ export default function Slider() {
       <div className="top grid grid-cols-3">
         <h1 className="my-5 col-span-2 text-5xl font-medium ">Shop seasonal health & wellness essentials</h1>
         <div className="icons justify-self-end col-span-1 my-5 mr-10">
-          <span className="text-center w-14 h-14 rounded-full bg-white text-4xl border border-slate-900 inline-block cursor-pointer">
+          <span className="text-center w-14 h-14 rounded-full text-4xl border border-slate-500 text-slate-500 inline-block">
             <GoChevronLeft className="inline-block" />
           </span>
-          <span className="text-center w-14 h-14 rounded-full bg-white text-4xl border border-slate-800 inline-block ml-3 cursor-pointer">
-            <GoChevronRight className="inline-block" />
+          <span className="text-center w-14 h-14 rounded-full text-4xl border border-slate-800 inline-block ml-3 cursor-pointer">
+            <BsChevronRight className="inline-block" />
           </span>
         </div>
       </div>
@@ -26,7 +27,7 @@ export default function Slider() {
             <img className="" src={Here} alt="" />
           </div>
           <h4 className="text-center text-2xl mt-4">
-            Here for woman's health <GoChevronRight className="inline-block" />
+            Here for woman's health <BsChevronRight className="inline-block" />
           </h4>
         </div>
         <div className="card bg-gray-100 p-7 rounded-3xl group cursor-pointer">
@@ -34,7 +35,7 @@ export default function Slider() {
             <img className="" src={All} alt="" />
           </div>
           <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300 ">
-            All products <GoChevronRight className="inline-block" />
+            All products <BsChevronRight className="inline-block" />
           </h4>
         </div>
         <div className="card bg-gray-100 p-7 rounded-3xl group cursor-pointer">
@@ -42,7 +43,7 @@ export default function Slider() {
             <img className="" src={Covid} alt="" />
           </div>
           <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300 ">
-            At-home COVID-19 tests <GoChevronRight className="inline-block" />
+            At-home COVID-19 tests <BsChevronRight className="inline-block" />
           </h4>
         </div>
         <div className="card bg-gray-100 p-7 rounded-3xl group cursor-pointer">
@@ -50,7 +51,7 @@ export default function Slider() {
             <img className="" src={Gift} alt="" />
           </div>
           <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300 ">
-            Wellness gifts <GoChevronRight className="inline-block" />
+            Wellness gifts <BsChevronRight className="inline-block" />
           </h4>
         </div>
         <div className="card bg-gray-100 p-7 rounded-3xl group cursor-pointer">
@@ -58,15 +59,15 @@ export default function Slider() {
             <img className="" src={Vit} alt="" />
           </div>
           <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300 ">
-            Vitamins <GoChevronRight className="inline-block" />
+            Vitamins <BsChevronRight className="inline-block" />
           </h4>
         </div>
-        <div className="card bg-gray-100 p-7 rounded-3xl group cursor-pointer">
+        <div className="card bg-gray-100 p-6 rounded-3xl group cursor-pointer">
           <div className="card-top w-2/3 mx-auto">
             <img className="" src={Med} alt="" />
           </div>
-          <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300 ">
-            Health & medicine <GoChevronRight className="inline-block" />
+          <h4 className="text-center text-2xl mt-4 group-hover:underline group-hover:transition-all duration-300">
+            Health & medicine <BsChevronRight className="inline-block" />
           </h4>
         </div>
       </div>

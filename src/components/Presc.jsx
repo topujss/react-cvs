@@ -31,15 +31,12 @@ export default function Presc() {
             <img className="w-72" src={Transfer} alt="" />
           </div>
         </div>
-        <div className="row-span-2 shadow-2xl rounded-3xl bg-white p-8">
+        <div className="row-span-2 shadow-2xl rounded-3xl bg-white p-6">
           <div className="inner-left">
             <h1 className="text-7xl font-medium leading-snug">
-              Your CVS® <br />
-              pharmacist can
-              <br /> prescribe
-              <br /> Paxlovid
+              Get COVID-19 <br /> treatment*
             </h1>
-            <a href="#" className="text-2xl py-12 font-semibold text-red-600">
+            <a href="#" className="text-2xl pb-24 font-semibold text-red-600">
               Take our eligibility screener <GoChevronRight className="inline-block" />
             </a>
           </div>
@@ -47,6 +44,9 @@ export default function Presc() {
             <img className="w-72" src={Pax} alt="" />
           </div>
         </div>
+      </div>
+      <div className="max-w-screen-xl mx-auto relative bottom-20 text-2xl">
+        <p>*FOR COVID-19 TREATMENT: For eligible patients, where clinically appropriate.</p>
       </div>
     </section>
   );
