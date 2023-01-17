@@ -1,7 +1,7 @@
-import Canvas from '../images/product/canvas.jpg';
+import Decor from '../images/product/decor.jpg';
 import Extra from '../images/product/extrabucks.jpg';
+import Val from '../images/product/valentines.jpg';
 import Pick from '../images/product/pickup.jpg';
-import New from '../images/product/new.jpg';
 import { BsChevronRight } from 'react-icons/bs';
 import { productItem } from '../faker/product';
 
@@ -9,34 +9,34 @@ export default function Product() {
   return (
     <section className="mt-72 bg-gray-100">
       <div className="top max-w-screen-xl mx-auto relative bottom-52 z-10">
-        <h1 className="text-6xl font-medium">Shop wellness wins and bring out the best in you</h1>
+        <h1 className="text-6xl font-medium">New year, new deals, new you</h1>
       </div>
       <div className="relative bottom-44 max-w-screen-xl mx-auto grid grid-cols-4  gap-8 hover:cursor-grab">
         <div className="card shadow-2xl rounded-3xl text-xl bg-white">
-          <img src={Canvas} className="rounded-t-3xl" alt="" />
+          <img src={Decor} className="rounded-t-3xl" alt="" />
           <a href="#" className="hover:underline p-10 pr-16 text-2xl">
-            Start the New Year with your favorite prints. Up to 70% off 11x14 and 16x20 canvas prints
+            60% off posters & wall décor
             <BsChevronRight className="inline-block" />
           </a>
         </div>
         <div className="card shadow-2xl rounded-3xl text-xl bg-white">
           <img src={Extra} className="rounded-t-3xl" alt="" />
           <a href="#" className="hover:underline p-10 pr-16 text-2xl">
-            It's a new day for your wellness! Spend $30, get $10 ExtraBucks Rewards on wellness products
+            Spend $30 Get $10 Extrabucks Rewards on wellness products
+            <BsChevronRight className="inline-block" />
+          </a>
+        </div>
+        <div className="card shadow-2xl rounded-3xl text-xl bg-white">
+          <img src={Val} className="rounded-t-3xl" alt="" />
+          <a href="#" className="hover:underline p-10 pr-16 text-2xl">
+            Visit the Valentine's Day shop
             <BsChevronRight className="inline-block" />
           </a>
         </div>
         <div className="card shadow-2xl rounded-3xl text-xl bg-white">
           <img src={Pick} className="rounded-t-3xl" alt="" />
-          <a href="#" className="hover:underline p-10 pr-16 text-2xl">
-            Shop all your favorites online with FREE CVS Pickup or get free shipping on orders $35+
-            <BsChevronRight className="inline-block" />
-          </a>
-        </div>
-        <div className="card shadow-2xl rounded-3xl text-xl bg-white">
-          <img src={New} className="rounded-t-3xl" alt="" />
           <a href="#" className="hover:underline p-10 pr-20 text-2xl">
-            Meet Billie, "The Internet's Favorite Razor" NEW! Now at CVS
+            Shop all your favorites with FREE CVS Pickup or delivery
             <BsChevronRight className="inline-block" />
           </a>
         </div>

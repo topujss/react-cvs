@@ -43,8 +43,7 @@ span {
 
 // flu section
 .flu {
-  background: url($flu-bg) no-repeat;
-  background-size: cover;
+  background: url($flu-bg) no-repeat 0 58% / cover;
 }
 
 // virus section

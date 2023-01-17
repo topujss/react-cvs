@@ -8,14 +8,14 @@ export default function Flu() {
         <img src={Heart} className="w-24" alt="" />
         <h1 className="text-6xl font-medium mb-10">Cold season is here. Warm up to winter wellness with CVS®.</h1>
       </div>
-      <section className="flu rounded-2xl pb-72">
-        <div className="flu-links w-2/5 ml-16">
+      <section className="flu rounded-2xl pb-52">
+        <div className="flu-links w-2/5 ml-16 pt-1">
           <a
             href="#"
             className="bg-white shadow-lg shadow-stone-300 hover:underline py-7 px-5 text-3xl rounded-2xl mt-14 flex justify-between"
           >
             Schedule an upper respiratory visit
-            <FiChevronRight className="inline-block justify-self-end" />
+            <FiChevronRight className="inline-block" />
           </a>
           <a
             href="#"
